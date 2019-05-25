@@ -1,0 +1,102 @@
+.Node.is-currentRoot > .Node-self .Node-contentContainer, .Node.is-currentRoot > .Node-self.is-heading .Node-contentContainer {
+  font-family: Avenir Next;
+  font-weight: 600;
+}
+
+.AppContainer {
+  background: #fbfafa;
+}
+
+.Node-bullet:before {
+  color: #c43b4b;
+}
+
+.DocumentTools-overlay {
+  box-shadow: none;
+  background: none;
+}
+
+.is-desktop .LeftPaneSlidebarContainer {
+  box-shadow: none
+}
+
+.is-desktop .LeftPaneContainer, .is-desktop .Pane { 
+  background-color: #2a3135;
+}
+
+.node-inline-item:before {
+  font-weight: normal;
+}
+
+.node-inline-item, .AppContainer.is-highlighting-overdue .Node.is-checked .node-time.is-overdue { 
+  border: 0 none;
+  background: none;
+}
+
+.AppHeader {
+  background-color: transparent;
+  box-shadow: none;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.Node-renderedNote {
+  font-size: 14px;
+}
+
+.pane-item-header {
+  color: #fbfafa;
+}
+
+.u-use-pref-font {
+  font-family: Avenir Next;
+}
+
+.Pane-content {
+  padding: 0;
+}
+
+.pane-item.DocumentItem.is-open > .pane-item-header {
+  background-color: #d2353e;
+}
+
+.is-largeFont .Node-contentContainer {
+  font-size: 18px;
+}
+
+.is-largeFont .Node-contentContainer .node-inline-item, .is-largeFont .Node-contentContainer .node-inline-code {
+  font-size: 16px;
+}
+
+.node-inline-item, .AppContainer.is-highlighting-overdue .Node.is-checked .node-time.is-overdue {
+  display: inline;
+}
+
+.DocumentBreadcrumb {
+  opacity: .8;
+  font-size: 14px;
+}
+
+
+/* ==================
+   Sidebar
+   ================== */
+
+.pane-item-icon {
+  color: #6b6c6d;
+}
+
+.is-desktop .LeftPaneContainer-nav {
+  background: transparent;
+}
+
+.is-desktop .LeftPaneContainer-navItem {
+  background: transparent;
+}
+
+/* ==================
+   Misc
+   ================== */
+
+.normal-view {
+  top: 0;
+}
