@@ -56,7 +56,7 @@
 }
 
 .pane-item.DocumentItem.is-open > .pane-item-header {
-  background-color: #d2353e;
+  background-color: #484e4e;
 }
 
 .is-largeFont .Node-contentContainer {
@@ -99,4 +99,28 @@
 
 .normal-view {
   top: 0;
+}
+
+.is-desktop .LeftPaneContainer-navItem {
+  color: #c5c7c7;
+}
+
+.Pane-headerText {
+  display: none;
+}
+
+.is-desktop .Pane-header, .is-desktop .popup-message-banner {
+  background: transparent;
+}
+
+.is-desktop .LeftPaneContainer-navItem.is-active, .is-desktop .LeftPaneContainer-navItem:hover {
+  background-color: #484e4e;
+}
+
+.pane-item-icon.shared {
+  color: #d2353e;
+}
+
+.pane-item.DocumentItem.is-open > .pane-item-icon {
+  color: white;
 }
