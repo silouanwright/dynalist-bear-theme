@@ -124,3 +124,23 @@
 .pane-item.DocumentItem.is-open > .pane-item-icon {
   color: white;
 }
+
+/*=====================
+Images
+=======================*/
+
+/* Images are shrunk to 100 pixel thumbnails */
+
+.node-displayed-image {
+    max-width: 100px;
+    vertical-align:top;
+}
+
+/* Hovering over an image thumbnail enbiggens it */
+
+.node-displayed-image:hover { 
+    max-width: 100%;
+    max-height: 100%;
+    position: relative; 
+    top: -15px;
+}
